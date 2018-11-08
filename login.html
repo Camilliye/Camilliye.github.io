@@ -19,6 +19,20 @@
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin.css" rel="stylesheet">
+    
+    <script src="https://www.gstatic.com/firebasejs/5.5.7/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCfFmsQkAmxI51pLrpFbif1wNXdgnzpllo",
+        authDomain: "truckstop-dcd8e.firebaseapp.com",
+        databaseURL: "https://truckstop-dcd8e.firebaseio.com",
+        projectId: "truckstop-dcd8e",
+        storageBucket: "truckstop-dcd8e.appspot.com",
+        messagingSenderId: "941404898897"
+      };
+      firebase.initializeApp(config);
+    </script>
 
   </head>
 
@@ -49,7 +63,7 @@
                 </label>
               </div>
             </div>
-            <a class="btn btn-primary btn-block" href="home.html">Login</a>
+            <a class="btn btn-primary btn-block" href="driverhome.html">Login</a>
           </form>
           <div class="text-center">
             <!--<a class="d-block small mt-3" href="register.html">Register an Account</a>-->
